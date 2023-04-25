@@ -31,19 +31,27 @@ Just run ` main.py ` for training and testing
 
 For example, to train and test the 5-way 1-shot/5-shot setting on MiniImageNet:
 
-`python main.py --gpu 0 --max_epoch 100 --attention --energy --energy_loss --open_loss --lr 0.0001 --energy_method sum --pixel_wise --distance pixel_sim --pixel_conv --init_weights [/path/to/pretrained/weights] --dataset MiniImageNet --shot [number of shots] --ahead_combine --top_k [number of k]`
+```
+python main.py --gpu 0 --max_epoch 100 --attention --energy --energy_loss --open_loss --lr 0.0001 --energy_method sum --pixel_wise --distance pixel_sim --pixel_conv --init_weights [/path/to/pretrained/weights] --dataset MiniImageNet --shot [number of shots] --ahead_combine --top_k [number of k]
+```
 
 to train and test the 5-way 1-shot/5-shot setting on TieredImageNet:
 
-`python main.py --gpu 0 --max_epoch 200 --attention --energy --energy_loss --open_loss --lr 0.0002 --energy_method sum --pixel_wise --distance pixel_sim --pixel_conv --init_weights [/path/to/pretrained/weights] --dataset TieredImageNet --shot [number of shots] --ahead_combine --top_k [number of k]`
+```
+python main.py --gpu 0 --max_epoch 200 --attention --energy --energy_loss --open_loss --lr 0.0002 --energy_method sum --pixel_wise --distance pixel_sim --pixel_conv --init_weights [/path/to/pretrained/weights] --dataset TieredImageNet --shot [number of shots] --ahead_combine --top_k [number of k]
+```
 
 to train and test the 5-way 1-shot/5-shot setting on CIFAR-FS:
 
-`python main.py --gpu 0 --max_epoch 100 --attention --energy --energy_loss --open_loss --lr 0.0001 --energy_method sum --pixel_wise --distance pixel_sim --pixel_conv --init_weights [/path/to/pretrained/weights] --dataset CIFAR-FS --shot [number of shots] --ahead_combine --top_k [number of k]`
+```
+python main.py --gpu 0 --max_epoch 100 --attention --energy --energy_loss --open_loss --lr 0.0001 --energy_method sum --pixel_wise --distance pixel_sim --pixel_conv --init_weights [/path/to/pretrained/weights] --dataset CIFAR-FS --shot [number of shots] --ahead_combine --top_k [number of k]
+```
 
 to train and test the 5-way 1-shot/5-shot setting on CIFAR-FS without pixel branch:
 
-`python main.py --gpu 0 --max_epoch 100 --attention --energy --energy_loss --open_loss --lr 0.0001 --energy_method sum --init_weights [/path/to/pretrained/weights] --dataset CIFAR-FS --shot [number of shots]`
+```
+python main.py --gpu 0 --max_epoch 100 --attention --energy --energy_loss --open_loss --lr 0.0001 --energy_method sum --init_weights [/path/to/pretrained/weights] --dataset CIFAR-FS --shot [number of shots]
+```
 
 ## Citation
 
