@@ -2,7 +2,7 @@
 
 Official implementation of `Glocal Energy-based Learning for Few Shot Open-Set Recognition` (accepted by CVPR 2023).
 
-[[`Paper`](https://www.arxiv.org)]
+[[`Paper`](https://arxiv.org/abs/2304.11855)]
 [[`BibTex`](#citation)]
 
 ## Requirements
