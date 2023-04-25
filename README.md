@@ -48,9 +48,9 @@ to train and test the 5-way 1-shot/5-shot setting on CIFAR-FS without pixel bran
 ## Citation
 
 ```
-@article{haoyu2023glocal,
+@article{wang2023glocal,
   title={Glocal Energy-based Learning for Few Shot Open-Set Recognition},
-  author={Wang, Haoyu and Pang, Guansong and Wang, Peng and Zhang, Lei and Wei, Wei and Zhang, Yanning.},
+  author={Haoyu Wang and Guansong Pang and Peng Wang and Lei Zhang and Wei Wei and Yanning Zhang},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2023}
 }
