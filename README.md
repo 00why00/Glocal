@@ -56,11 +56,13 @@ python main.py --gpu 0 --max_epoch 100 --attention --energy --energy_loss --open
 ## Citation
 
 ```
-@article{wang2023glocal,
-  title={Glocal Energy-based Learning for Few Shot Open-Set Recognition},
-  author={Haoyu Wang and Guansong Pang and Peng Wang and Lei Zhang and Wei Wei and Yanning Zhang},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2023}
+@InProceedings{Wang_2023_CVPR,
+    author    = {Wang, Haoyu and Pang, Guansong and Wang, Peng and Zhang, Lei and Wei, Wei and Zhang, Yanning},
+    title     = {Glocal Energy-Based Learning for Few-Shot Open-Set Recognition},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {7507-7516}
 }
 ```
 
